@@ -134,17 +134,17 @@
 			if (rssi >= 18) {
       			return 1;
 			}	
-			else if (rssi >= -50) {
+			else if (rssi >= -45) {
             alert (" Esta una Camapaña de Facebook");
-   			window.open("http://www.facebook.com.co");
+   			window.open("http://b.datawifi.co");
 			}
-			else if (rssi < -50 && rssi >= -65) {
+			else if (rssi < -50 && rssi >= -60) {
             alert (" Esta una Camapaña de Youtube");
-   			window.open("http://www.youtube.com");
+   			window.open("http://c.datawifi.co");
 			}
 			else if (rssi < -65 && rssi >= -100) {
             alert (" Esta una Camapaña de Google");
-			window.open("http://www.google.com");	
+			window.open("http://d.datawifi.co");	
 			}
 			else {
 				return 100;
